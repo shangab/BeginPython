@@ -39,6 +39,9 @@ def printCertificate(std):
 
 
 def printSchoolCertificates():
+    """Scans all students in the school and prints the certificate of each student.\n
+    @params : no paramapaters
+    """
     for std in stdsList:
         printCertificate(std)
 
